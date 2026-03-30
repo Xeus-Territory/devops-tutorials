@@ -10,12 +10,12 @@ variable "publisher" {
 
 variable "offer" {
     type = string
-    default = "UbuntuServer"
+    default = "0001-com-ubuntu-server-jammy"
 }
 
 variable "sku" {
     type = string
-    default = "18.04-LTS"
+    default = "22_04-lts"
 }
 
 variable "version" {

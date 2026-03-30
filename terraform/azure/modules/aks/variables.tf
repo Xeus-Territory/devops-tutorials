@@ -45,7 +45,7 @@ variable "automatic_channel_upgrade" {
 variable "kubernetes_version" {
   type = string
   description = "kubernetes version"
-  default = "1.24.9"
+  default = "1.29"
 }
 
 variable "subnet_node_pools_id" {

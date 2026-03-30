@@ -1,4 +1,4 @@
-FROM nodejs:lastestv14
+FROM node:20-alpine
 
 # Clone git hub repo to work dir
 RUN git clone https://github.com/johnpapa/node-hello.git /app
